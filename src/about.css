@@ -1,0 +1,42 @@
+.about-header{
+    display: flex;
+    margin: 1rem;
+}
+.card{
+    height: 300px;
+    transition: transform 0.2s;
+    color: rgb(219, 135, 135);
+}
+.project-image{
+    height: 200px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    color: rgb(236, 190, 190);
+}
+/* .sr-only{
+    display: none;
+}
+.carousel-item{
+    transition: all 50ms ;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-item {
+    height: 86vh;
+    overflow: hidden;
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.about-heading{
+    background-color: tomato;
+    display: flex;
+    margin: 1rem;
+}
+.about-appdeveloped{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+} */

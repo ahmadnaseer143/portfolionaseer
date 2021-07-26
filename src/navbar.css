@@ -1,0 +1,104 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d2430;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    padding: 1rem;
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 1rem;
+    border-right: 1px solid #DAD8E0;
+}
+.menu ul li:last-child{
+    border: 0;
+}
+.menu ul li a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #fafafa;
+}
+@media screen and (max-width: 800px) {
+    .menu ul li{
+        margin: 0.4rem;
+    }
+    .menu ul li a{
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .menu ul li{
+        margin: 0.2rem;
+    }
+    .menu ul li a{
+        padding: 0.2rem;
+    }
+}
+.menu ul li a:active{
+    color: lightsalmon;
+}
+/* .nav{
+    background-color: #1d2430;
+    height: 12vh;
+}
+.nav-links{
+    margin: 1rem;
+    border-right: 1px solid #DAD8E0;
+}
+.nav-links:last-child{
+    border: 0;
+}
+.nav-links:hover{
+    border-bottom: 1px solid lightgray;
+} */
+.back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 10%;
+}
+.back-to-top li{
+    font-size: large;
+    border: none;
+    box-shadow: 0 8px 6px -6px black;
+}
+.back-to-top li a:hover{
+    color: #fff;
+    font-size: larger;
+}
+.navbar-toggler-icon:hover{
+    box-shadow: 0 0 10px #719ECE;
+}
+@media screen and (max-width: 995px){
+    .nav-link:hover{
+        font-size: large;
+        position: relative;
+        left: 20px;
+        box-shadow: 10px 10px 10px #719ECE;
+        padding-left: 4px;
+    }
+}
+@media screen and (min-width: 995px){
+    .nav-link{
+        border-right: 1px solid lightgray;
+    }
+    .nav-link:last-child{
+        border-right: none;
+    }
+    .nav-link:hover{
+        padding: 5px;
+        border-bottom: 1px solid lightgray;
+    }
+}

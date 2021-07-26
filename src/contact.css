@@ -1,0 +1,30 @@
+.contact{
+    color: #fff;
+}
+.form{
+    margin-left: 10px;
+    width: 90%;
+}
+.contact-input-container input,textarea{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size: large;
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+.contact-input-container input:focus, .contact-input-container textarea:focus{
+    outline: none !important;
+    border-bottom:1px solid green;
+}
+.contact-email-container{
+    background-color: rgba(27,35,64,255);
+}
+.form button{
+    float: right;
+}
+@media screen and (min-width:900px) {
+    .contact-email-container{
+        width: 50%;
+    }
+}
